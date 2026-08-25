@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Nitro writes main + assets into .output/server/wrangler.json during `vite build`.
+  // Deploy with: wrangler deploy --config .output/server/wrangler.json
+  "name": "loly-aesthetic",
+  "compatibility_date": "2026-08-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+  },
+}
